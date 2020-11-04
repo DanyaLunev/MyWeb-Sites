@@ -96,28 +96,47 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__search {
     width: 100%;
+    position: absolute;
+}
+
+
+.search__icon {background: #ffffff;}
+.search__icon form {
+    background: #ffffff;
+}
+
+.search__icon input, .search__icon button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.search__icon input {
+    width: 100%;
     height: 110px;
-    position: absolute;
-
-    background: #fff;
-    background-size: 1000px 110px;
+    padding-left: 85px;
 }
 
-.search__icon {
-    padding-top: 47px;
-    padding-left: 43px;
+.search__icon button {
+    height: 109px;
+    width: 288px;
     position: absolute;
-    
-}
-
-.intro__text__color {
-    color: #8C97AC;
+    top: 0;
+    right: 0;
     font-size: 16px;
-    font-weight: 400;
-    padding-left: 80px;
-    padding-top: 45px;
-    position: absolute;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #fff;
+    cursor: pointer;
+    background: #22B0FC;
 }
+
+.search__icon button:before {   
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #8C97AC;
+}
+
 
 
 /* Header */

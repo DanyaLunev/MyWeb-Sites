@@ -30,8 +30,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .container__intro {
     width: 100%;
-    min-width: 570px;
-    margin-inline-start: 200px;
+    max-width: 700px;
+    padding-left: 200px;
+    position: absolute;
+}
+
+.container__search {
+    width: 100%;
+    max-width: 1100px;
+    height: 110px;
+    padding-left: 200px;
+    padding-top: 631px;
+    position: absolute;
+
 }
 
 
@@ -41,20 +52,22 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column-reverse;
     justify-content: space-around;
     width: 100%;
-    height: 100vh;
+    max-width: 1520px;
+    height: 1000px;
 
     background: url(/assets/images/intro.jpg) center no-repeat;
-    background-size: 1362px;
+    background-size: 1350px 850px;
 }
 
 .intro__inner {
     width: 100%;
-    max-width: 570px;   
+    max-width: 570px;
 }
 
 .intro__supinner {
     width: 100%;
-    max-width: 461px;
+    max-width: 600px;
+    padding-top: 15px;
 }
 
 .intro__title {
@@ -75,10 +88,42 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: initial;
 }
 
+.intro__arrow {
+    width: 100%;
+    max-width: 18px;
+    padding-top: 50px;
+}
+
+.intro__search {
+    width: 100%;
+    height: 110px;
+    position: absolute;
+
+    background: #fff;
+    background-size: 1000px 110px;
+}
+
+.search__icon {
+    padding-top: 47px;
+    padding-left: 43px;
+    position: absolute;
+    
+}
+
+.intro__text__color {
+    color: #8C97AC;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 80px;
+    padding-top: 45px;
+    position: absolute;
+}
+
 
 /* Header */
 .header {
     width: 100%;
+    max-width: 1520px;
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -99,6 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__logo {
     font-size: 32px;
     font-weight: 116px;
+    padding-top: 15px;
 }
 
 

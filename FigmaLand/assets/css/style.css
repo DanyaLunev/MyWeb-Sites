@@ -1,0 +1,22 @@
+/* Body */
+.body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background: url(/assets/images/background.svg);
+    background-size: 100%;
+}
+
+
+/* Header*/
+.header {
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+}
+
+.logo {
+    padding-bottom: 9px;
+}
